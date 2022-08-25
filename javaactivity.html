@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>"JAVASCRIPT"</title>
+         <link href="javaactivity.css" rel="stylesheet">
+         <script src="javaactivity.js" defer></script>
+    </head>
+    
+    <body>
+       <h1 id ="header" style="background-color: yellow">"JavaScript Laboratory Exam"</h1>
+       <button onclick="document.getElementById('myImage').src='images/happyemoji.jpg'">Happy</button>
+       <img id="myImage" img src="images/happyemoji.jpg" style="width:90px">
+       <button onclick="document.getElementById('myImage').src='images/sademoji.png'">Sad</button>
+      <br>
+      <br>
+       <button onclick="myFunction()">Submit</button>
+
+       <script>
+        function myFunction() {
+          alert("Congratulations!");
+        }
+        </script>
+
+<button onClick="changePageTitle()">
+    Change Page Title   
+</button>
+
+<script type="text/javascript">
+    function changePageTitle() {
+        newPageTitle = 'its Java Java Java !'
+        document.title = newPageTitle;
+    }
+</script>
+
+<button onClick="color('blue')">Change color</button>
+
+<script>
+    function color(col){
+         document.getElementById("header").style.color=col;
+    }
+</script>
+
+    </body>
+</html>

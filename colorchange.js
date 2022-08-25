@@ -1,0 +1,2 @@
+innerHTML
+style.color='blue'

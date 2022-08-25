@@ -1,0 +1,24 @@
+<!Doctype html>
+<html>
+<body>
+
+<h1 id="header">Javascript Activity</h1>
+
+<input type="button" value="Blue" onclick="color('blue')">
+
+<script>
+    function color(col){
+         document.getElementById("header").style.color=col;
+    }
+</script>
+
+<button onClick="changePageTitle()">
+    Change Page Title   
+</button>
+
+<script type="text/javascript">
+    function changePageTitle() {
+        newPageTitle = 'Have a nice day !'
+        document.title = newPageTitle;
+    }
+</script>
